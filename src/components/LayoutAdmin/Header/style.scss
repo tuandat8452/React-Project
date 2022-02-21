@@ -1,0 +1,25 @@
+.header__admin {
+  height: 50px;
+  padding-left: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: #1c1e2a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  img {
+    width: 40px;
+  }
+  .user__logout {
+    i {
+      display: block;
+      padding: 0 1rem;
+      margin-right: 34px;
+      cursor: pointer;
+    }
+  }
+}
+

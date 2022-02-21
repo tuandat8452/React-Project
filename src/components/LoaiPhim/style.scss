@@ -1,0 +1,42 @@
+.nav {
+    border-bottom: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.8rem 0;
+    .nav-item {
+        font-size: 1.3rem;
+        .nav-link {
+            position: relative;
+            &::after {
+                content: "";
+                display: block;
+                position: absolute;
+                background: linear-gradient(to right, #89b458, greenyellow );
+                width: 0;
+                height: 4px;
+                bottom: -2px;
+                left: 0;
+                transition: all 0.5s ease-out;
+                box-shadow: 0 0 20px greenyellow;
+              }
+        }
+        .active {
+            font-size: 1.8rem;
+            color: greenyellow !important;
+            // background-color: #fafafa;
+            &::after {
+                width: 100%;
+            }
+        }
+        a {
+            border: none !important;
+            color: #000;
+            font-weight: 600;
+            &:hover {
+                font-size: 1.8rem;
+                transition: all 0.2s ease-in-out;
+            }
+        }
+    }
+}

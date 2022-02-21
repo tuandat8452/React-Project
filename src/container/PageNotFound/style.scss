@@ -1,0 +1,28 @@
+.error-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #fff;
+    img {
+        width: 30%;
+    }
+    a{
+        color: #fff;
+        &:hover {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+    .back-home {
+        padding: 0.5rem 1rem;
+        background-color: #f25564;
+        border-radius: 10px;
+        &:hover {
+            background-color: #f23648;
+        }
+    }
+}

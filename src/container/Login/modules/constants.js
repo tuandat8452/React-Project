@@ -1,0 +1,4 @@
+export const FECTH_LOGIN_REQUEST = "/login/FECTH_LOGIN_REQUEST";
+export const FECTH_LOGIN_SUCCESS = "/login/FECTH_LOGIN_SUCCESS";
+export const FECTH_LOGIN_FAILED = "/login/FECTH_LOGIN_FAILED";
+

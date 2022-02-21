@@ -1,0 +1,16 @@
+
+@mixin reponsiveMax($screen) {
+  // map: duyệt mảng
+  @if map-has-key($map: $breakpoints, $key: $screen) {
+    $value: map-get(
+      $map: $breakpoints,
+      $key: $screen,
+    );
+    @media screen and (max-width: $value) {
+      @content;
+    }
+  } @else {
+    @warn "Không tìm thấy!";
+  }
+}
+

@@ -1,0 +1,58 @@
+@import "../src/components/ShowTimes/variables";
+@import "../src/components/ShowTimes/mixin";
+
+//Home-page
+@import "../src/components/PageLoading/style.scss";
+@import "../src/components/NavbarHome/style.scss";
+@import "../src/components/Carousel/style.scss";
+@import "../src/components/LoaiPhim/style.scss";
+@import "../src/components/LoaiPhim/PhimDangChieu/style.scss";
+@import "../src/components/LoaiPhim/PhimDangChieuItem/style.scss";
+@import "../src/components/LoaiPhim/PhimSapChieu/style.scss";
+@import "../src/components/ShowTimes/showtime";
+@import "../src/components/News/style.scss";
+@import "../src/components/Application/style.scss";
+@import "../src/components/Footer/style.scss";
+
+//Detail-page
+@import "../src/container/HomeTemplate/Detail/style.scss";
+@import "../src/components/ShowTimesDetail/style.scss";
+@import "../src/components/Comment/style.scss";
+
+//Profile-page
+@import "../src/container/HomeTemplate/Profile/style.scss";
+@import "../src/components/Infomation/style.scss";
+@import "../src/components/DetailHistory/style.scss";
+@import "../src/components/HIstory/style.scss";
+
+//Dashboard
+@import "../src/components/LayoutAdmin/style.scss";
+@import "../src/components/LayoutAdmin/Header/style.scss";
+@import "../src/components/LayoutAdmin/Menu/style.scss";
+@import "../src/components/LayoutAdmin/DashboardContent/Statistical/style.scss";
+@import "../src/container/AdminTemplate/UserManager/style.scss";
+@import "../src/container/AdminTemplate/AddUser/style.scss";
+@import "../src/components/LayoutAdmin/MainMovie/style.scss";
+@import "../src/container/AdminTemplate/AddMovie/style.scss";
+
+//Booking-page
+@import "../src/container/HomeTemplate/BookingTicket/style.scss";
+
+//Login-pgae
+@import "../src/container/Login/style.scss";
+
+//Signup- pgae
+@import "../src/container/Signup/style.scss";
+
+//Page404 
+@import "../src/container/PageNotFound/style.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+// html {
+//     scroll-behavior: smooth;
+// }

@@ -1,0 +1,65 @@
+.statisical {
+  h6 {
+    font-size: 10px;
+  }
+  h3 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .MuiCard-root {
+    height: 110px;
+    width: 240px;
+    cursor: pointer;
+    &:hover{
+      margin-left: 10px;
+      transition: all 0.3s ease-in;
+      background: linear-gradient(to left, #fbbd61, #ec7532);
+    }
+    .MuiGrid-container {
+      margin-bottom: 0.4rem;
+      justify-content: space-between;
+    }
+  }
+  .customer {
+    .MuiBox-root {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.4rem;
+      svg {
+        margin-right: 5px;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .MuiAvatar-colorDefault {
+      background-color: green;
+    }
+  }
+  .budget {
+    .MuiBox-root {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.4rem;
+      svg {
+        margin-right: 5px;
+      }
+      span {
+        margin-left: 10px;
+      }
+    }
+    .MuiAvatar-colorDefault {
+      background-color: red;
+    }
+  }
+  .profit {
+    .MuiAvatar-colorDefault {
+        background-color: blue;
+      }
+  }
+  .progress__total {
+    .MuiAvatar-colorDefault {
+        background-color: orange;
+      }
+  }
+}

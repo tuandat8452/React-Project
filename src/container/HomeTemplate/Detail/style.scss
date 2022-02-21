@@ -1,0 +1,112 @@
+.detail-movie {
+  color: #fff;
+  #showlichchieu{
+    .nav {
+      .nav-item {
+        .active {
+          color: greenyellow !important;
+        }
+      }
+    }
+  }
+  .bg-img{
+    img {
+      width: 100%;
+      height: 80vh;
+      filter: blur(8px);
+      margin: 13px 0;
+    }
+  }
+ 
+  .intro {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(0, -50%);
+    width: 70%;
+    .content-img {
+      img {
+        width: 100%;
+        height: 300px;
+        border-radius: 5px;
+        filter: none;
+        margin: 0;
+      }
+    }
+    .content-text {
+      .buy-ticket-btn {
+        background-color: greenyellow;
+        border-color: greenyellow;
+        color: #000;
+        font-weight: bold;
+        font-size: 1.1rem;
+        width: 6rem;
+      }
+    }
+  }
+  .overplay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #0a2029, transparent);
+  }
+  .show-info {
+    background: #0a2029;
+    color: #fff;
+    .nav {
+      .nav-item {
+        a {
+          color: #fff;
+        }
+      }
+      .active {
+        background: #0a2029;
+      }
+    }
+    .info-movie {
+      .item {
+        width: 100%;
+        display: flex;
+        p {
+          display: inline-block;
+          width: 100%;
+          margin-bottom: 2rem;
+        }
+      }
+      .trailer-movie{
+          margin: 1rem 0;
+          width: 100%;
+          iframe {
+              width: 100%;
+              height: 70vh;
+          }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+    .detail-movie {
+        .intro {
+            img{
+                width: 50% !important;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .detail-movie {
+        .info-movie {
+            .describe-movie {
+                padding: 0 !important;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

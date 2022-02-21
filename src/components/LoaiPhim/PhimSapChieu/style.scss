@@ -1,0 +1,109 @@
+.lich-chieu {
+  .slick-arrow {
+    width: 3rem;
+    height: 3rem;
+    top: 45% !important;
+    &::before {
+      color: #fb4226;
+      font-size: 2.5rem;
+    }
+  }
+  .slick-next {
+    right: -3.125rem;
+  }
+  .slick-prev {
+    left: -3.125rem;
+  }
+  .list-movie-coming {
+    .item {
+      height: 30rem;
+      overflow: hidden;
+      cursor: pointer;
+      img {
+        border-radius: 5px;
+        height: 23rem;
+        width: 100%;
+        display: block;
+      }
+      p {
+        font-weight: 600;
+      }
+      &:focus {
+        outline: none;
+      }
+      .item-top {
+        .hover-img {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(to top, #000, transparent 100%);
+          display: none;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+          z-index: 1;
+        }
+        .img-play {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          opacity: 0;
+          visibility: hidden;
+          img {
+            cursor: pointer;
+            display: block;
+            width: 30%;
+            height: 20%;
+            z-index: 2;
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+        }
+        .text-coming {
+          position: absolute;
+          bottom: 1rem;
+          right: 1rem;
+          color: #fff;
+          background-color: rgba(12, 27, 54, 0.8);
+          border: 1px solid #1f2e46;
+          border-radius: 4px;
+          padding: 1rem 0.8rem 0.6rem;
+          z-index: 1;
+          h4 {
+            font-size: 1rem;
+            line-height: 0;
+          }
+        }
+      }
+      .item-bot {
+        .age {
+          padding: 0.2rem 0.5rem;
+          margin-right: 0.5rem;
+          border-radius: 5px;
+          background-color: #fb4226;
+          color: #fff;
+        }
+        p {
+          display: inline;
+        }
+      }
+      &:hover {
+        .hover-img {
+          display: block;
+        }
+        .img-play {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+    }
+  }
+}

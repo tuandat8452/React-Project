@@ -1,0 +1,3 @@
+export const FECTH_SIGNUP_REQUEST = "/sign-up/FECTH_SIGNUP_REQUEST";
+export const FECTH_SIGNUP_SUCCESS = "/sign-up/FECTH_SIGNUP_SUCCESS";
+export const FECTH_SIGNUP_FAILED = "/sign-up/FECTH_SIGNUP_FAILED";

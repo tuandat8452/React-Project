@@ -1,0 +1,21 @@
+.movie__manager {
+  .movie__top {
+    .search {
+      i {
+        position: absolute;
+        top: 50%;
+        left: 25px;
+        transform: translate(0, -50%);
+      }
+      input {
+        padding: 10px 200px 10px 30px;
+       
+      }
+    }
+  }
+  // .table__movie{
+  //   .body__list__movie{
+     
+  //   }
+  // }
+}

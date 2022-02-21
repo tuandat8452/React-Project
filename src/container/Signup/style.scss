@@ -1,0 +1,49 @@
+.sign-up {
+  background-image: url("../../assets/background-app.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .form-content {
+    background-color: #fff;
+    border-radius: 1rem;
+  }
+  .makeStyles-paper-1 {
+    margin-top: 0;
+  }
+  .makeStyles-paper-15 {
+    margin-top: 0;
+  }
+  .cancel-signup {
+    position: absolute;
+    top: -25px;
+    right: -50px;
+    font-size: 1.3rem;
+    width: 3.125rem;
+    height: 3.125rem;
+    line-height: 2.8rem;
+    background-color: rgba(62, 85, 97, 1);
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  .loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid #3498db;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cancel-signup {
+    right: -10px !important;
+  }
+}

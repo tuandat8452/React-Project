@@ -1,0 +1,3 @@
+export const FECTH_AUTH_REQUEST = "/auth/FECTH_AUTH_REQUEST";
+export const FECTH_AUTH_SUCCESS = "/auth/FECTH_AUTH_SUCCESS";
+export const FECTH_AUTH_FAILED = "/auth/FECTH_AUTH_FAILED";

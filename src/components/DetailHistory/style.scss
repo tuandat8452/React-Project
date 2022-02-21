@@ -1,0 +1,12 @@
+.modal__history {
+  .modal-dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .modal-content {
+        width: 900px;
+    }
+  }
+}

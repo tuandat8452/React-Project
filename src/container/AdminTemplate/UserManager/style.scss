@@ -1,0 +1,29 @@
+.table {
+  thead {
+    background-color: silver;
+  }
+}
+.content__top {
+  margin-bottom: 1rem;
+  .search {
+    i {
+      position: absolute;
+      top: 50%;
+      left: 25px;
+      transform: translate(0, -50%);
+    }
+    input {
+      padding: 10px 200px 10px 30px;
+    }
+  }
+}
+.modal {
+  input {
+    padding: 3px 0 3px 5px;
+    width: 100%;
+  }
+  select {
+    width: 100%;
+    padding: 5px 0 5px 5px;
+  }
+}

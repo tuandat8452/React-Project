@@ -1,0 +1,98 @@
+//custom Modal
+.ReactModal__Body--open {
+  .ReactModalPortal {
+    .ReactModal__Overlay {
+      z-index: 9999;
+      background-color: rgba(14, 20, 19, 0.7) !important;
+      .ReactModal__Content {
+        border: none !important;
+        background: none !important;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 58rem;
+        height: 31.25rem;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%);
+        padding: 1rem 0 !important;
+        span {
+          font-size: 1.5rem;
+          border: 5px solid #fff;
+          border-radius: 50%;
+          width: 2.5rem;
+          height: 2.5rem !important;
+          text-align: center;
+          line-height: 1.5rem;
+          cursor: pointer;
+          position: absolute;
+          color: #fff;
+          top: 0;
+          right: 0;
+          opacity: 0.7;
+          background-color: #000;
+          &:hover {
+            opacity: 1;
+          }
+        }
+        iframe {
+          width: 900px;
+          height: 500px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .ReactModal__Body--open {
+    .ReactModalPortal {
+      .ReactModal__Overlay {
+        span {
+          top: 6% !important;
+          right: 9% !important;
+        }
+        iframe {
+          width: 720px !important;
+          height: 400px !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ReactModal__Body--open {
+    .ReactModalPortal {
+      .ReactModal__Overlay {
+        span {
+          top: 16% !important;
+          right: 21% !important ;
+        }
+        iframe {
+          width: 500px !important;
+          height: 300px !important;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .ReactModal__Body--open {
+    .ReactModalPortal {
+      .ReactModal__Overlay {
+        span {
+          top: 21% !important ;
+          right: 24% !important ;
+        }
+        iframe {
+          width: 450px !important;
+          height: 250px !important;
+        }
+      }
+    }
+  }
+}
+

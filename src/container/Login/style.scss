@@ -1,0 +1,75 @@
+.form-login {
+    background-image: url("../../assets/bg-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .content {
+        background-color: #fff ;
+        border-radius: 1rem;
+    }
+
+    .cancel-login {
+        position: absolute;
+        top: -25px;
+        right: -40px;
+        font-size: 1.3rem;
+        width: 3.125rem ;
+        height: 3.125rem;
+        line-height: 2.8rem;
+        background-color: rgba(62, 85, 97,1 );
+        border-radius: 50%;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+    }
+    .loader {
+        border: 5px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 5px solid #3498db;
+        width: 20px;
+        height: 20px;
+        animation: spin 2s linear infinite;
+      }
+}
+.custom-err{
+    color: red;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+// @media screen and (max-width: 1440px) {
+//     .form-login {
+//         .cancel-login {
+//             top: 10%;
+//             right: 33%;
+//         }
+//     }
+// }
+
+// @media screen and (max-width: 1024px) {
+//     .form-login {
+//         .cancel-login {
+//             top: 12%;
+//             right: 26%;
+//         }
+//     }
+// }
+
+@media screen and (max-width: 576px) {
+    .form-login {
+        .cancel-login {
+            right: -10px;
+        }
+    }
+}
+
+

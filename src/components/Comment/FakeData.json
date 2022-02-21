@@ -1,0 +1,50 @@
+[
+    {
+        "user": "Kiên Trần",
+        "point": 9,
+        "content": "Tuyệt vời ! ",
+        "avatar": "https://loremflickr.com/320/240/dog"
+    },
+    {
+        "user": "Tường Nguyễn",
+        "point": 5,
+        "content": "Phim nhạt ",
+        "avatar":"https://loremflickr.com/g/320/240/paris"
+    },
+    {
+        "user": "Nhật Tường",
+        "point": 10,
+        "content": "Phim hay xuất sắc, cho 10 điểm ♥ ",
+        "avatar":"https://loremflickr.com/320/240/brazil,rio"
+    },
+    {
+        "user": "Captian American",
+        "point": 7,
+        "content": "Nói chung xem cho vui cũng được ",
+        "avatar":"https://vtv1.mediacdn.vn/thumb_w/650/2021/1/15/chris-evans-1610680034155432641563.jpg"
+    },
+    {
+        "user": "Thor",
+        "point": 5,
+        "content": "Cái kết không có hậu",
+        "avatar":"https://gamek.mediacdn.vn/133514250583805952/2020/2/8/photo-1-15810949175856144101.jpg"
+    },
+    {
+        "user": "Spider Man",
+        "point": 8,
+        "content": "Chưa coi nhưng thích đánh giá :))",
+        "avatar":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuxkdEJRkkBp2Cbk-USkE_dU07j-DFDOn4lA&usqp=CAU"
+    },
+    {
+        "user": "Yasuo",
+        "point": 1,
+        "content": "Death is like the wind – always by my side.",
+        "avatar":"https://store-images.s-microsoft.com/image/apps.28411.13510798887593857.411c7070-8254-4bc7-9822-93212e9b3eaa.d5650289-0ad1-4560-ac30-38a18a1847bb"
+    },
+    {
+        "user": "Yone",
+        "point": 9,
+        "content": "Hasagiiiiii",
+        "avatar":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_beoU47e2Nc6rkVy4QtyAnzARMK1apIe5vQ&usqp=CAU"
+    }
+]
